@@ -81,22 +81,24 @@ Suspendisse id sem consectetuer libero luctus adipiscing.
 *   Bird
 *   Magic
 会被转换为：
-
+```
 <ul>
 <li>Bird</li>
 <li>Magic</li>
 </ul>
+```
 但是这个：
 
 *   Bird
 
 *   Magic
 会被转换为：
-
+```
 <ul>
 <li><p>Bird</p></li>
 <li><p>Magic</p></li>
 </ul>
+```
 列表项目可以包含多个段落，每个项目下的段落都必须缩进 4 个空格或是 1 个制表符：
 
 1.  This is a list item with two paragraphs. Lorem ipsum dolor
@@ -108,6 +110,7 @@ Suspendisse id sem consectetuer libero luctus adipiscing.
     sit amet velit.
 
 2.  Suspendisse id sem consectetuer libero luctus adipiscing.
+
 如果你每行都有缩进，看起来会看好很多，当然，再次地，如果你很懒惰，Markdown 也允许：
 
 *   This is a list item with two paragraphs.
@@ -117,12 +120,14 @@ only required to indent the first line. Lorem ipsum dolor
 sit amet, consectetuer adipiscing elit.
 
 *   Another item in the same list.
+
 如果要在列表项目内放进引用，那 > 就需要缩进：
 
 *   A list item with a blockquote:
 
     > This is a blockquote
     > inside a list item.
+    
 如果要放代码区块的话，该区块就需要缩进两次，也就是 8 个空格或是 2 个制表符：
 
 *   一列表项包含一个列表区块：
@@ -132,5 +137,6 @@ sit amet, consectetuer adipiscing elit.
 
 1986. What a great season.
 换句话说，也就是在行首出现数字-句点-空白，要避免这样的状况，你可以在句点前面加上反斜杠。
-
+```
 1986\. What a great season.
+```
