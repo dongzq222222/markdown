@@ -38,10 +38,11 @@ Markdown 支持有序列表和无序列表。
 1.  McHale
 1.  Parish
 ```
-输出：
-1.  Bird
-1.  McHale
-1.  Parish  
+> 输出：
+
+> 1.  Bird
+> 1.  McHale
+> 1.  Parish  
 
 > 或甚至是：
 ```
@@ -49,10 +50,11 @@ Markdown 支持有序列表和无序列表。
 1. McHale
 8. Parish
 ```
-输出：
-3. Bird
-1. McHale
-8. Parish
+> 输出：
+
+> 3. Bird
+> 1. McHale
+> 8. Parish
 
 你都会得到完全相同的 HTML 输出。重点在于，你可以让 Markdown 文件的列表数字和输出的结果相同，或是你懒一点，你可以完全不用在意数字的正确性。
 
