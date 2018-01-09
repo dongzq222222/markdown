@@ -8,12 +8,13 @@ This is [an example](http://example.com/ "Title") inline link.
 
 [This link](http://example.net/) has no title attribute.
 会产生：
-
+```
 <p>This is <a href="http://example.com/" title="Title">
 an example</a> inline link.</p>
 
 <p><a href="http://example.net/">This link</a> has no
 title attribute.</p>
+```
 如果你是要链接到同样主机的资源，你可以使用相对路径：
 
 See my [About](/about/) page for details.
@@ -24,20 +25,20 @@ This is [an example][id] reference-style link.
 
 This is [an example] [id] reference-style link.
 接着，在文件的任意处，你可以把这个标记的链接内容定义出来：
-
+```
 `[id]: http://example.com/  "Optional Title Here"`
+```
 链接内容定义的形式为：
 
-方括号（前面可以选择性地加上至多三个空格来缩进），里面输入链接文字
+> 方括号（前面可以选择性地加上至多三个空格来缩进），里面输入链接文字
 接着一个冒号
 接着一个以上的空格或制表符
 接着链接的网址
 选择性地接着 title 内容，可以用单引号、双引号或是括弧包着
 下面这三种链接的定义都是相同：
-
-[foo]: http://example.com/  "Optional Title Here"
-[foo]: http://example.com/  'Optional Title Here'
-[foo]: http://example.com/  (Optional Title Here)
+    [foo]: http://example.com/  "Optional Title Here"
+    [foo]: http://example.com/  'Optional Title Here'
+    [foo]: http://example.com/  (Optional Title Here)
 请注意：有一个已知的问题是 Markdown.pl 1.0.1 会忽略单引号包起来的链接 title。
 
 链接网址也可以用方括号包起来：
