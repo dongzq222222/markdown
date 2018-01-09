@@ -13,5 +13,6 @@
   * [强调](chapter1/qiang-diao.md)
   * [代码](chapter1/dai-ma.md)
   * [图片](chapter1/tu-pian.md)
+  * [其它](chapter1/qi-ta.md)
   * [备注](chapter1/bei-zhu.md)
 
