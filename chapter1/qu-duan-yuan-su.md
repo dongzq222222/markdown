@@ -128,7 +128,7 @@ __double underscores__
 
 强调也可以直接插在文字中间：
 
-un*frigging*believable
+    un*frigging*believable
 但是如果你的 * 和 _ 两边都有空白的话，它们就只会被当成普通的符号。
 
 如果要在文字前后直接插入普通的星号或底线，你可以用反斜线：
