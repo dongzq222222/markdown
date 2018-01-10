@@ -104,35 +104,3 @@ than from [Yahoo](http://search.yahoo.com/ "Yahoo Search") or
 参考式的链接其实重点不在于它比较好写，而是它比较好读，比较一下上面的范例，使用参考式的文章本身只有 81 个字符，但是用行内形式的却会增加到 176 个字元，如果是用纯 HTML 格式来写，会有 234 个字元，在 HTML 格式中，标签比文本还要多。
 
 使用 Markdown 的参考式链接，可以让文件更像是浏览器最后产生的结果，让你可以把一些标记相关的元数据移到段落文字之外，你就可以增加链接而不让文章的阅读感觉被打断。
-
-强调
-Markdown 使用星号（*）和底线（_）作为标记强调字词的符号，被 * 或 _ 包围的字词会被转成用 <em> 标签包围，用两个 * 或 _ 包起来的话，则会被转成 <strong>，例如：
-```
-*single asterisks*
-
-_single underscores_
-
-**double asterisks**
-
-__double underscores__
-```
-会转成：
-```
-<em>single asterisks</em>
-
-<em>single underscores</em>
-
-<strong>double asterisks</strong>
-
-<strong>double underscores</strong>
-```
-你可以随便用你喜欢的样式，唯一的限制是，你用什么符号开启标签，就要用什么符号结束。
-
-强调也可以直接插在文字中间：
-
-    un*frigging*believable
-但是如果你的 * 和 _ 两边都有空白的话，它们就只会被当成普通的符号。
-
-如果要在文字前后直接插入普通的星号或底线，你可以用反斜线：
-
-\*this text is surrounded by literal asterisks\*
